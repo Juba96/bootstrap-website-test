@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -52,8 +53,8 @@
             <div class="col-sm-12">
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h1 class="display-4">Welcome To Cs50 Baghdad</h1>
-                        <p class="lead">Where Devs Are Born</p>
+                        <h1 class="display-4">Welcome To my website</h1>
+                        <p class="lead">i love skateboards</p>
                     </div>
                 </div>
 
@@ -138,34 +139,49 @@
                     <div class="col-sm-12 col-lg-4"><img class="img-fluid imgcenter" src="assets/360flip.jpg">
                         <div class="row">
                         <div class="col-sm-12">
-                            <button type="button" class="btn btn-danger  btn-lg btnCenter">360Flip</button>
+                            <button type="button" class="btn btn-danger  btn-lg btnCenter" data-toggle="modal" data-target=".360Flip-modal-md">360Flip</button>
                         </div>
-                            
+
                         </div>
                     </div>
                        <div class="col-sm-12 col-lg-4"><img class="img-fluid imgcenter" src="assets/kickflip.jpg">
                         <div class="row">
                         <div class="col-sm-12">
-                            <button type="button" class="btn btn-danger  btn-lg btnCenter">kickFlip</button>
+                            <button type="button" class="btn btn-danger  btn-lg btnCenter" data-toggle="modal" data-target=".kf-modal-lg">kickFlip</button>
                         </div>
-                            
+
                         </div>
                     </div>
                        <div class="col-sm-12 col-lg-4"><img class="img-fluid imgcenter" src="assets/bscrook.jpg">
                         <div class="row">
                         <div class="col-sm-12">
-                            <button type="button" class="btn btn-danger  btn-lg btnCenter">bscrook</button>
+                            <button type="button" class="btn btn-danger  btn-lg btnCenter" data-toggle="modal" data-target=".bt-modal-sm">bscrook</button>
                         </div>
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
-           
+
         </div>
 
 
     </div>
+    <footer class="footer bg-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-3">
+                    <img  src="assets/KFS_LIGHT.png " class="img-fluid footerimg">
+                </div>
+                <div class="col-sm-12 col-lg-9 socialWrapper">
+                        <a href="https://facebook.com"><i class="fa fa-facebook-square fa-3x"></i></a>
+                        <a href="https://google.com"><i class="fa fa-google-plus-square fa-3x"></i></a>
+                        <a href="https://instagram.com"><i class="fa fa-instagram fa-3x"></i> </a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -221,6 +237,44 @@
 
 
     </div>
+    <!-- ######kickflip model########## -->
+    <div class="modal fade kf-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="//www.youtube.com/embed/8ptboO6zI5I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- ######360flip model########## -->
+    <div class="modal fade 360Flip-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+          <div class="modal-content">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QuOcEBS8Qfk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ######backside tilit model########## -->
+    <div class="modal fade bt-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="//www.youtube.com/embed/8ptboO6zI5I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
 
 
 
